@@ -31,7 +31,7 @@ public class DataResult {
     }
 
     public String concatDescription(String description) {
-        if (description.isEmpty()) {
+        if (description == null || description.isEmpty()) {
             return this.description;
         }
 
